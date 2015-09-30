@@ -1,0 +1,39 @@
+/* CSS Reset */
+
+* {
+	margin:0;
+	padding:0;
+}
+ul {
+	list-style: none;
+}
+
+body {
+	background: grey;
+	padding: 20px;
+	border:3px solid lightgrey;
+	margin:20px;
+	width:600px;
+}
+a {
+	color:#00D59D;
+}
+
+header, 
+footer {
+	text-align:center;
+
+}
+
+li {
+	display: inline;
+}
+img {
+	float:right;
+	margin-bottom: 20px;
+	margin-left:20px;
+	border:1px; solid:lightgrey;
+	padding:3px;
+}
+
+
