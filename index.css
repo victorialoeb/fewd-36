@@ -3,18 +3,33 @@
 	padding:0;
 	font-family:'Roboto Condensed', sans-serif;
 }
+html{
+	background:whitesmoke;
+}
 h1 {
 	text-align:center;
 	color:#4E394A;
 	margin-bottom:40px;
+	border:solid darkslategray;
+	display:inline;
+	padding:10px;
+	margin:10px;
+}
+h2 {
+	margin-top:100px;
+	text-decoration: underline;
 }
 body {
-	margin-left:50px;
 	text-align:center;
-
 }
 li{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 	list-style:none;
+	
+}
+a {
+	text-decoration:none;
+	color:dimgray;
+}
