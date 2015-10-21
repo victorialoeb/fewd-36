@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>layout-intro</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+	td,
+	h6,
+	div,
+	span,
+	article,
+	p {
+		background:limegreen;
+		margin:3px;
+		padding:3px;
+	}
+	section {
+		display:flex;
+		align-items:center
+		background:skyblue;
+	}
+	aside {
+		width:300px;
+		background:peachpuff;
+	}
+	p,
+	article {
+		flex:1;
+	}
+	h6 {
+		flex:2;
+	}
+	.sidebar {
+		background:red;
+		width:200px;
+	}
+	.main {
+		flex:1;
+	}
+	.row {
+		display:flex;
+	}
+</style>
+</head>
+<body>
+
+<h1>CSS</h1>
+
+<h2>Table layout</h2>
+
+<table>
+	<tr>
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+	</tr>
+</table>
+
+<h2>Flexbox</h2>
+
+<h3>Natural width</h3>
+
+<section>
+	<div>Column 1</div>
+	<div>Column 2</div>
+	<div>Column 3</div>
+</section>
+
+<h3>Sidebar</h3>
+<section>
+	<aside>Column1</aside>
+	<aside>Column2</aside>
+	<aside>Column3</aside>
+</section>
+
+<h3>Sidebar with class</h3>
+<section>
+	<span class="sidebar">Sidebar</span>
+	<span class="main">Main</span>
+	<span>Column3</span>
+</section>
+
+<h3>Three Even Columns</h3>
+
+<section>
+	<article>Column 1</article>
+	<article>Column 2</article>
+	<article>Column 3</article>
+</section>
+
+<h3>One large column, two small</h3>
+
+<section>
+	<h6>Column 1</h6>
+	<p>Column 2</p>
+	<p>Column 3</p>
+</section>
+
+<h3>Single column</h3>
+<section>
+	<aside>Column 1</aside>
+	<article>Column 2</article>
+</section>
+
+<h3>Holy grail!!</h3>
+<section>
+	<article>Heirloom aesthetic vegan, umami migas tote bag biodiesel trust fund DIY next level. Next level 90's fap scenester flannel fixie. Semiotics fap pop-up, blog squid locavore cliche pork belly church-key hashtag drinking vinegar butcher paleo. Skateboard Etsy YOLO McSweeney's, taxidermy sustainable American Apparel Brooklyn chambray. Gluten-free narwhal 90's YOLO Schlitz Marfa. Keffiyeh Pitchfork selfies cold-pressed. Salvia fixie biodiesel artisan, ethical fap Etsy paleo meh cray listicle.
+
++1 mixtape Odd Future seitan letterpress church-key, farm-to-table Vice keytar Shoreditch sustainable. Banh mi viral plaid, tattooed leggings ugh sartorial small batch YOLO four dollar toast lomo flannel synth. Yr butcher skateboard, Brooklyn ugh Kickstarter swag four loko DIY readymade. Post-ironic salvia selvage bitters, keffiyeh PBR&B Odd Future McSweeney's master cleanse before they sold out listicle art party dreamcatcher bespoke irony. Taxidermy Pinterest organic, Etsy biodiesel direct trade Tumblr bicycle rights leggings plaid pug banjo locavore pickled Odd Future. Trust fund McSweeney's four dollar toast, actually Carles scenester cold-pressed aesthetic. Plaid cred Marfa, Odd Future beard quinoa butcher.</article>
+	<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+	<article>Scenester slow-carb Brooklyn, deep v fingerstache single-origin coffee Intelligentsia gluten-free asymmetrical bespoke pug street art put a bird on it.</article>
+</section>
+<h3>Flex row</h3>
+<section class="row">
+	<article>Column1</article>
+	<article>Column 2</article>
+</section>	
+</body>
+</html>

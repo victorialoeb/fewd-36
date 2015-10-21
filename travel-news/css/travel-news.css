@@ -1,0 +1,36 @@
+header img{
+	width:600px;
+	margin:auto;
+}
+img,
+body {
+	width:600px;
+	margin:auto;
+}
+
+ul {
+	list-style:none;
+	padding:0px;
+}
+li {
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px solid lightgrey;
+	text-align:left;
+}
+
+li:first-child{
+	padding-top:0px;
+}
+h3 {
+	font-family:Arial;
+}
+
+h4 {
+
+	text-align:right;
+}
+
+p {
+	color:black;
+}

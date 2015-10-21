@@ -1,0 +1,37 @@
+html {
+	font-family:arial;
+}
+
+h1 {
+	font-style: bold;
+	font-size:25px;
+	margin-bottom:15px;
+}
+
+body {
+	margin:50px
+}
+ul {
+	display:flex;
+	margin-top:20px;
+}
+li {
+	width:50px;
+	height:50px;
+	border:4px solid black;
+	border-radius:25px;
+	margin:0px 10px;
+	text-indent:-5000px;
+}
+.fuchsia {
+	background:Fuchsia;
+}
+.dodgerblue {
+	background:Dodgerblue;
+}
+.lavender {
+	background:Lavender;
+}
+.darkseagreen {
+	background:Darkseagreen;
+}
