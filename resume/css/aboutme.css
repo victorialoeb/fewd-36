@@ -54,7 +54,6 @@ ol {
 	padding-left:40px;
 	padding-bottom:20px;
 	line-height:1.5;
-
 }
 a {
 	color:#272822;
@@ -95,5 +94,10 @@ footer {
 }
 html {
 	float:center;
+
+}
+.resume {
+	margin:auto;
+	max-width:600px;
 }
 

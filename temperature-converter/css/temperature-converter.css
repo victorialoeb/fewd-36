@@ -1,0 +1,53 @@
+/* CSS Reset */
+/* ---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-family: 'Raleway';
+  background:navajowhite;
+}
+h1 {
+  color:#001A33;
+}
+
+body {
+  text-align: center;
+  padding:50px;
+  padding-bottom:140px;
+  border:solid 2px darkslategrey;
+  margin:50px;
+  background:seashell;
+}
+
+span {
+  color:darkslategrey;
+  font-size: 20px;
+}
+.equals {
+  font-weight:bold;
+  padding:10px;
+  font-size: 25px;
+  color:black;
+}
+
+input {
+  height:30px;
+  font-size: 20px;
+  color:snow;
+  font-family:'Raleway';
+}
+.temp-f{
+  background:cadetblue;
+
+}
+.temp-c{
+  background:tomato;
+}

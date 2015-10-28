@@ -10,34 +10,22 @@ h1 {
 	text-align:center;
 	color:#4E394A;
 	margin-bottom:40px;
-	border:solid darkslategray;
-	display:inline;
 	padding:10px;
 	margin:10px;
+	margin-top:100px;
+	text-decoration: underline;
 }
+
 body {
 	text-align:center;
 }
-ul {
-	margin-top:100px;
-
-}
-
-li {
+li{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
-	display:inline;
-	font-size:25px;
-}
-li:not(:last-child) {
-	padding-right: 5px;
-	border-right: 1px solid #999999;
-	margin-right: 5px;	
-
+	list-style:none;
+	
 }
 a {
 	text-decoration:none;
-	color:maroon;
-}
-
+	color:dimgray;
