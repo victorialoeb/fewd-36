@@ -23,8 +23,15 @@ body {
   padding:50px;
   padding-bottom:140px;
   border:solid 2px darkslategrey;
+  border-radius:5px;
   margin:50px;
   background:seashell;
+  
+}
+.sun-snow {
+  width:75px;
+  height:75px;
+  float:center;
 }
 
 span {
@@ -43,6 +50,9 @@ input {
   font-size: 20px;
   color:snow;
   font-family:'Raleway';
+  border:solid 2px darkslategrey;
+  border-radius:5px;
+  margin-right:2px;
 }
 .temp-f{
   background:cadetblue;
