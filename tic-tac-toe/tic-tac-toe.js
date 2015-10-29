@@ -29,5 +29,6 @@ function play (event) {
 	else { 
 		turn="X";
 	}
-
 }
+
+
