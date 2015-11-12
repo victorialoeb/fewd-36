@@ -29,6 +29,15 @@ function play (event) {
 	else { 
 		turn="X";
 	}
-}
 
+	if (box1.textContent == box2.textContent && box2.textContent == box3.textContent) {
+	 	alert("you win!");
+	 	//span.classList.add("win123");
+	 }
+
+	if (box4.textContent == box5.textContent && box5.textContent == box6.textContent) {
+	 	alert("you win!");
+	 	//span.classList.add("win456");
+	} 
+}
 
