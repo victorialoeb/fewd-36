@@ -25,12 +25,14 @@ body {
 }
 
 .header {
-	background: url(images/sea-banner.jpg);
-	background-size:100% 100%;
-	background-repeat: no-repeat;
   height:600px;
-  width:1280;
+  max-height:100%;
   	
+}
+.banner {
+  position:absolute;
+  max-width:100%;
+
 }
 
 .nav {
