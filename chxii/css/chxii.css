@@ -27,10 +27,8 @@ body {
 .header {
 	background: url(images/sea-banner.jpg);
 	background-size:100% 100%;
-	min-width: 973px;
 	background-repeat: no-repeat;
-  	max-width:1175px;
-  	height:600px;
+  height:600px;
   	
 }
 
@@ -71,8 +69,8 @@ iframe {
 
 .fb-page {
 	position:relative;
-	width:349px;
-	top:-187px;
+	width:711px;
+	top:-392px;
 	float:right;
 }
 .dropdown {
