@@ -1,61 +1,70 @@
 * {
-	margin:0;
-	padding:0;
+	margin: 0;
 }
 
 html {
-	text-align:center;
-	font-family:arial; 
-	font-family:'Varela Round';
+	height: 100%
 }
 
+/*HEADINGS*/
 h1 {
-	background:#76C666;
-	margin:0 auto 25px auto;
-	padding-bottom:10px;
-	color:#313131;
-	font-weight: bold;
+	font-family: Arial;
+	background: limegreen;
+	text-align: center;
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
 
+div {
+	font-family: Arial;
+	border-radius: 4px;
 }
-form {
-	background-color: #D4D2D5;
-	width:600px;
+
+.background {
+	background: lightgray;
+	border: 1px solid darkgray;
+	width: 600px;
 	margin: auto;
-	height:300px;
-	border:solid #959496 1px;
-	border-radius: 5px;
 }
-input {
-	height:40px;
-	padding-left:10px;
-	margin-top:20px;
-	border:solid #959496 1px;
-	border-radius:3px;
-	font-weight: bold;
-	color:#323232;
+
+form {
+	width: 600px;
+	margin: 30px 30px 10px;
 }
-.placeholder {
-	color:black;
-}
-button {
-	height:40px;
-	width:70px;
-	padding:7px;
-	border:solid #959496 1px;
-	border-radius:3px;
-	color:#323232;
-	background:#82A0E9;
-	font-weight:bold;
-}
+
 ul {
-	list-style:none;
-	text-align:left;
-	margin-left:20px;
+	margin: 0 0 30px 0;
 }
+
+.task,
+.date,
+button {
+	font-size: 16px;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	height: 50px;
+	width: 150px;
+	margin: 0 5px;
+}
+
+input {
+	width: 20px;
+}
+
 li {
-	padding-right:10px;
+	list-style: none;
 }
-input[type="checked"]:checked + span {
+
+input {
+	padding: 0 10px;
+}
+
+button {
+	background: royalblue;
+	padding: 10px; 
+}
+
+input:checked + span {
 	text-decoration: line-through;
 }
-input 
+

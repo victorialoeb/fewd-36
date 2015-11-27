@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)http://timmmichaud.github.io/fewd-36/code-alongs/css-layout.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CSS Layout code-along</title>
+<style>
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+p,
+td,
+h6,
+span,
+aside,
+article {
+	padding: 5px;
+	background: limegreen;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: right;
+}
+
+h2 {
+	margin: 30px 0 10px;
+	padding: 5px 10px;
+	background: lightsteelblue;
+	border-bottom: 1px solid slategrey;
+	font-size: 18px;
+}
+
+h1,
+h3 {
+	margin: 10px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background: skyblue;
+}
+
+aside {
+	width: 300px;
+	background: peachpuff;
+}
+
+p,
+article {
+	flex: 1;
+}
+
+h6 {
+	flex: 2;
+}
+
+.sidebar {
+	background: red;
+	width: 200px;
+}
+.main {
+	flex: 1;
+}
+.column {
+	flex-direction: column;
+}
+
+.google-cfo {
+	background: red;
+	position: relative;
+	margin: 10px auto;
+	width: 480px;
+	height: 270px;
+}
+.google-cfo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.google-cfo h5 {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	color: white;
+}
+.google-cfo div {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 200px;
+	background: peachpuff;
+	font-size: 10px;
+}
+
+
+</style>
+<style type="text/css"></style></head>
+<body data-pinterest-extension-installed="cr1.39.1">
+
+<h1>CSS Layout code-along</h1>
+
+<h2>Absolute Position</h2>
+
+<div class="google-cfo">
+	<img width="480" height="270" src="./CSS Layout code-along_files/google-hiring-women.jpg">
+	<h5>Hiring women is good for business</h5>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	</div>
+</div>
+
+
+<h2>Table layout</h2>
+
+<table>
+	<tbody><tr>
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+	</tr>
+</tbody></table>
+
+<h2>Flexbox</h2>
+
+<h3>Natural widths</h3>
+<section>
+	<div>Column 1</div>
+	<div>Column 2</div>
+	<div>Column 3</div>
+</section>
+
+<h3>Sidebar</h3>
+<section>
+	<aside>Column 1</aside>
+	<span>Column 2</span>
+	<span>Column 3</span>
+</section>
+
+<h3>Sidebar with class</h3>
+<section>
+	<span class="sidebar">Sidebar</span>
+	<span class="main">Main</span>
+	<span>Column 3</span>
+</section>
+
+<h3>Three even columns</h3>
+<section>
+	<article>Column 1</article>
+	<article>Column 2</article>
+	<article>Column 3</article>
+</section>
+
+<h3>One large column, two small</h3>
+<section>
+	<h6>Column 1</h6>
+	<p>Column 2</p>
+	<p>Column 3</p>
+</section>
+
+<h3>Single column</h3>
+<section>
+	<aside>Column 1</aside>
+	<article>Column 2</article>
+</section>
+
+<h3>Holy grail !!!</h3>
+<section>
+	<article>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</article>
+	<article>
+		Distillery single-origin coffee Blue Bottle lumbersexual tofu. Gastropub keytar aesthetic pug you probably haven't heard of them, lo-fi gluten-free photo booth synth bicycle rights Echo Park pop-up fixie trust fund letterpress. Beard PBR&amp;B ethical umami Schlitz Pitchfork.
+	</article>
+	<article>
+		Flannel YOLO fingerstache cardigan master cleanse. Irony mumblecore cray synth.
+	</article>
+</section>
+
+<h3>Flex column</h3>
+<section class="column">
+	<article>Column 1</article>
+	<article>Column 2</article>
+</section>
+
+
+
+<div id="skribel__annotation_ignore_chromeExtensionFlag" class="skribel__chromeExtension" style="display: none;"></div><player-div id="sc-player" style="" class="right-top">
+<player-tag class="scext-player-tag">
+<a target="_blank" href="https://soundcloud.com/"></a>
+</player-tag>
+<player-wrapper class="scext-player-wrapper">
+<player-util-icons>
+<span class="scext-move-icon"><i class="fa fa-arrows"></i></span>
+<a class="scext-settings-link" target="_blank" href="chrome-extension://gdkpgbhhfnpjiembbpifcpfalfnflmop/src/options/options.html">
+<i class="fa fa-cog"></i>
+</a>
+</player-util-icons>
+<player-button class="scext-player-prev disabled"></player-button>
+<player-button class="scext-player-play"></player-button>
+<player-button class="scext-player-next"></player-button>
+<player-info class="scext-player-info"><a href="http://timmmichaud.github.io/fewd-36/code-alongs/css-layout.html#"></a></player-info>
+<player-state class="scext-player-state-wrapper">
+<player-div class="scext-player-state-progress"></player-div>
+</player-state>
+</player-wrapper>
+</player-div><span style="height: 20px; width: 40px; position: absolute; opacity: 1; z-index: 8675309; display: block; cursor: pointer; border: none; top: 144px; left: 479px; background-image: url(data:image/png;base64,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); background-color: transparent; background-size: 40px 20px;"></span></body></html>

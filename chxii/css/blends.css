@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'PT Serif', serif;
+}
+
+body {
+  color: #5a5a5a;
+  
+}
+
+.topnav {
+  position: relative;
+  height:50px;
+}
+
+.topnav {
+  position: relative;
+  height:50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style:none;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:41px;
+  background: rgba(255,255,255,0.85);
+
+}
+.nav a {
+  text-decoration: none;
+  color:black;
+}
+.nav li {
+  margin-right:35px;
+  padding-top:10px;
+}
+.logo {
+  position:relative;
+  left:0;
+    top:0;
+  z-index: 11;
+  max-width:25%;
+  
+}
+
+.dropdown {
+	float:right;
+}
+#primary_nav_wrap {
+  margin-top: 20px;
+  margin-right:263px;
+  float:right;
+  border:solid black 1px;
+  border-radius: 20px;
+
+}
+
+#primary_nav_wrap ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-radius:20px;
+}
+
+#primary_nav_wrap ul a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 15px;
+}
+
+#primary_nav_wrap ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#primary_nav_wrap ul li.current-menu-item {
+  background: #ddd;
+  margin-top:10px;
+}
+
+#primary_nav_wrap ul li:hover {
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+#primary_nav_wrap ul ul {
+  display: none;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  background: #fff;
+  padding: 0
+}
+
+#primary_nav_wrap ul ul li {
+  float: none;
+  width: 114px
+}
+
+#primary_nav_wrap ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+#primary_nav_wrap ul ul ul {
+  top: 0;
+  left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+  display: block
+}
+
+.products { 
+	margin:200px 0 0 0;	
+	}
+
+.products ul {
+	list-style-type:none;
+	text-align: center;
+	float:left;
+	padding-left:70px;
+	padding-bottom:15px;
+}
+.products ul li a p {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+.juice-title {
+	color:black;
+	text-decoration: none;
+}

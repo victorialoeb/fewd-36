@@ -1,71 +1,122 @@
 //Structure
-var form = document.querySelector("form");
+var task   = document.querySelector(".task");
+var date   = document.querySelector(".date");
 var button = document.querySelector("button");
-var list = document.querySelector(".list");
-var task = document.querySelector(".task");
-var date = document.querySelector(".date");
+var list   = document.querySelector(".list");
+
+// Local storage 
+// ---------------------------
+	var totalValue = 0;
+	var toDo = {
+		"items":[]
+	};
+
+
 
 //Events
-form.addEventListener("submit", todo);
-//button.addEventListener("click", testIt);
+//--------------------
+window.addEventListener("load", setPageState);
+button.addEventListener("click", createTask);
 
 
 //Event Handlers
-function todo(e) {
-	e.preventDefault();
+//-----------------------------
 
-//define values of task and date inputs	
-var taskValue=task.value;
-var dateValue=date.value;
+function setPageState(event) {
 
-var newTask = document.createElement("li");
-var	checkbox = document.createElement("input");
-var	span = document.createElement("span");
+	// error checking. return early if nothing saved yet
+	if (localStorage.getItem("toDo") == null) {
+		return;
+	}
+	// Repopulate the list
+	toDo = JSON.parse(localStorage.getItem("toDo"));
 
-// specify checkbox before text	
-checkbox.setAttribute("type", "checkbox");	
-span.textContent = taskValue + " " + dateValue;
-
-list.appendChild(newTask);
-newTask.appendChild(checkbox);
-newTask.appendChild(span);
+	toDo.items.forEach(createTask);
 
 }
 
-function checked(event) {
+function storage(event) {
 
-	//1: Create new html
+	event.preventDefault();	
+	//create task object
+	var task = {
+		"name": task.value,
+		"date":date.value,
+		"done": false
+	}
+	//add item to list 								// prevents default form behaviours
+	toDo.items.push(task);
 
-	//2: decorate 
-	span.textContent=task.name;
+	//update page 
+	createTask(task);
+
+	//reset form
+	input.value="";
+
+	// save to local storage
+	localStorage.setItem("toDo", JSON.stringify(toDo));
+}
 	
 
-	//make clickable
-	checkbox.addEventListener ("click", "checked");
-	
-	
+function createTask(a) {
 
-	
-	
-};
+	// Create Elements
 
-function testIt (event) {
-	console.log('testIt');
-	console.log(event.target);
-	event.target.className = "checked";
+	var checkbox = document.createElement("input");			// checkbox
+	var newTask = document.createElement("li");				// new task with checkbox
+	var textArea = document.createElement("span");
+	var labelTask = document.createElement("label");			// span for the task and date
+
+
+
+	// Decorate Elements
+	checkbox.setAttribute("type", "checkbox");	
+		if (task.done) {
+			checkbox.setAttribute("checked", true);
+		}											// define the type of box
+	textArea.textContent = task.value + " " + date.value;		// defines the text in the new element
+	labelTask.textcontent = task.name;
+
+	checkbox.addEventListener("click", taskClicked);	
+
+	// Append Elements
+	list.appendChild(newTask);								// adds newTask to the ul
+	newTask.appendChild(checkbox);							// adds the checkbox to newTask
+	newTask.appendChild(textArea);							// adds all text to newTask
+
+}
+
+function taskClicked(e) {
+	var checkbox = e.target;
+	var text = checkbox.nextSibling,textContent;
+
+	toDo.items.forEach()
+	function updateCheckedState(task) {
+	if (task.name == text) {
+		task.done = checkbox.checked;
+
+		localStorage.setItem("toDo", JSON.stringify(toDo));
+	}
+}
 }
 
 
-var taskz = [];
 
-var task1 = {
-	name:"exercise",
-	date:undefined,
-	completed:false
-}
+/*function enter(event) {
+	event.preventDefault();
 
-var task3 = {
-	name:"eat junk food",
-	date:"2015-11-11",
-	completed:false
+	// get the current entry value from form, convert to number with parseFloat
+	var date = parseFloat(date.value);
+	var task = parseFloat(task.value);
+
+	textArea.textContent = date + " " + task;
+	var newLine = textArea.textContent
+
+	list.appendChild(newTask);								// adds newTask to the ul
+	newTask.appendChild(checkbox);							// adds the checkbox to newTask
+	newTask.appendChild(textArea);
+
+	
 }
+*/
+

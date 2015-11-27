@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'PT Serif', serif;
+}
+
+.topnav {
+  position: relative;
+  height:50px;
+}
+
+.banner {
+  width:100%;
+  position: absolute;
+  max-height: 535px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style:none;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:41px;
+  background: rgba(255,255,255,0.85);
+}
+
+.nav a {
+  text-decoration: none;
+  color:black;
+}
+
+.nav li {
+  margin-right:35px;
+  padding-top:10px;
+}
+
+.logo {
+  position:relative;
+  left:0;
+    top:0;
+  z-index: 11;
+  max-width:25%; 
+}
+
+#primary_nav_wrap {
+  margin-top: 4px;
+  margin-right:300px;
+  float:right;
+  border:solid black 1px;
+  border-radius: 20px;
+}
+
+#primary_nav_wrap ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-radius:20px;
+}
+
+#primary_nav_wrap ul a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 15px;
+}
+
+#primary_nav_wrap ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#primary_nav_wrap ul li.current-menu-item {
+  background: #ddd;
+  margin-top:10px;
+}
+
+#primary_nav_wrap ul li:hover {
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+#primary_nav_wrap ul ul {
+  display: none;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  background: #fff;
+  padding: 0
+}
+
+#primary_nav_wrap ul ul li {
+  float: none;
+  width: 114px
+}
+
+#primary_nav_wrap ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+#primary_nav_wrap ul ul ul {
+  top: 0;
+  left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+  display: block
+}
+
+body {
+  display:inline;
+}
+.product-info {
+  margin:128px 150px;
+}
+.prod-img {
+  float:left;
+  margin-top:-48px;
+}
+h1 {
+  font-size:30px;
+  padding-botom:25px;
+}
+h2 {
+  font-size:10px;
+  color:firebrick;
+}
+p {
+  max-width:450px;
+  float:right;
+  padding-top:30px; 
+}
+h1, h2 {
+  margin-left:309px;
+}
+
+
+

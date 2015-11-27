@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'PT Serif', serif;
+	background-image:url("contact.jpg");
+	background-size:cover;
+}
+
+.topnav {
+	position: relative;
+	height:50px;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	list-style:none;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	height:41px;
+	background: rgba(255,255,255,0.85);
+
+}
+.nav a {
+	text-decoration: none;
+	color:black;
+}
+.nav li {
+	margin-right:35px;
+	padding-top:10px;
+}
+.logo {
+	position:relative;
+	left:0;
+    top:0;
+	z-index: 11;
+	max-width:25%;
+	
+}
+.form {
+	text-align: center;
+}
+fieldset {
+	margin-top:152px;
+	margin-bottom:200px;
+	display:inline;	
+	background: rgba(245,245,245,0.85);
+	padding:80px;
+	border:gray;
+	text-align: left;
+}
+.contact-input {
+	padding-bottom:20px;
+}
+
+input,
+option,
+textarea  {
+	height:40px;
+	width:300px;
+	padding:10px;
+	border-radius: 6px;
+	border:1px solid gray;
+}
+
+select {
+    width: 173px;
+    padding: 5px;
+    border: 1px solid gray;
+    height: 34px;
+    -moz-appearance: none;
+    appearance: none;
+    color:dimgray;
+}
+
+button {
+	display: block;
+	padding:8px;
+	border:none;
+	border-radius:6px;
+	margin-top:8px;
+
+}

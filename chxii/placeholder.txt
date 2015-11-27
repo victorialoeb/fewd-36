@@ -1,0 +1,13 @@
+placeholder:
+-------------------------
+
+<input class="name" placeholder="Name">
+<input class="email-address" placeholder="Email Addresss">
+<input class="phone-number" placeholder="Phone Number">
+<select>
+    <option value="0" disabled selected hidden>Reason for Inquiry</option>
+    <option value="1">Wholesale</option>
+    <option value="2">Distribution</option>
+    <option value="3">General Support</option>
+</select>
+<input class="your-message" placeholder="Your Message">
