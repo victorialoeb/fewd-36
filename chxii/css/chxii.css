@@ -32,6 +32,7 @@ body {
 .banner {
   position:absolute;
   max-width:100%;
+  max-height: 539px;
 
 }
 
