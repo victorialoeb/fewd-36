@@ -66,12 +66,12 @@ body {
 
 iframe {
 	position:relative;
-	top:53px;
+	top:140px;
 	left:100px;
 }
 
 .fb-page {
-	position:relative;
+	position:absolute;
 	width:711px;
   left:700px;
 }
