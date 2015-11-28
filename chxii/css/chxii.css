@@ -64,8 +64,6 @@ body {
 	
 }
 .social {
-
-  width:100%;
   margin-top:145px;
   margin-left:145px;
 }
@@ -80,5 +78,7 @@ iframe {
   left:453px;
   top:-394px;
 }
-
+._2lqg>div {
+  height:0%;
+}
 
