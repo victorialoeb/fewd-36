@@ -65,18 +65,19 @@ body {
 }
 
 iframe {
-	position:relative;
-	top:140px;
+  position:relative;
 	left:100px;
 }
 
 .fb-page {
-	position:absolute;
+  position:relative;
 	width:711px;
   left:700px;
 }
 
 .social {
   position:absolute;
+  width:100%;
+  margin:40px;
 }
 
