@@ -108,10 +108,11 @@ button {
 }
 @media (max-width:480px) {
 	html {
-		width:50%;
+		height:50%;
 	}
 	body {
 		height:100%;
+		border:solid 4px blue;
 	}
 	
 }
