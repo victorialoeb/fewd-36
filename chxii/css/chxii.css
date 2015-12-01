@@ -83,19 +83,16 @@ iframe {
   left:453px;
   top:-394px;
 }
-@media (max-width:400px) {
-  .facebook {
-  float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+@media (max-width:600px) {
+  .social {
+    display:flex;
+    justify-content:space-between;
+    border-bottom:2px solid #000;  
+  }
+  .facebook {    
+    flex-direction:column;    
   }
   .instagram {
-  float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+    flex-direction:column;
   }
 }
