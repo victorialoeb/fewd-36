@@ -14,7 +14,7 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
-	<img class="logo" src="images/logo.png" alt="logo"/>
+	<a href="index.html"><img class="logo" src="images/logo.png" alt="logo"/></a>
 </div>
 
 <div class="form">
@@ -29,7 +29,7 @@
             </div>
 
             <div class="contact-input">
-                <input type="phone" type="phone" placeholder="Phone Number">
+                <input type="phone" name="phone" placeholder="Phone Number">
             </div>
 
             <div class="contact-input">
@@ -41,10 +41,11 @@
                 </select>
             </div>    
             <div class="contact-input">
-                <textarea class="message" placeholder="Your Message"></textarea>
+                <textarea placeholder="Your message"></textarea>
             </div>    
             <div class="submit">
                 <input type="submit" value="Send">
+                <input type="hidden" name="_next" value="http://victorialoeb.github.io/fewd-36/chxii/index.html" />
             </div>
         </fieldset>
     </form>
