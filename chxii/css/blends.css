@@ -33,7 +33,7 @@ body {
   left:0;
   right:0;
   height:41px;
-  background: rgba(255,255,255,0.85);
+  background:rgba(162, 152, 152, 0.19);
 
 }
 .nav a {
@@ -50,6 +50,7 @@ body {
     top:0;
   z-index: 11;
   max-width:25%;
+  border:solid silver 1px;
   
 }
 
@@ -58,7 +59,7 @@ body {
 }
 #primary_nav_wrap {
   margin-top: 20px;
-  margin-right:263px;
+  margin-right:287px;
   float:right;
   border:solid black 1px;
   border-radius: 20px;

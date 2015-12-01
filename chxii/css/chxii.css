@@ -83,4 +83,19 @@ iframe {
   left:453px;
   top:-394px;
 }
-
+@media (max-width:400px) {
+  .facebook {
+  float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+  .instagram {
+  float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+}
