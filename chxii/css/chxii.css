@@ -100,7 +100,7 @@ h2 {
 @media (max-width:480px) {
 
   .header {
-    height: 200%;
+    height: 210px;
   }
   .social {
     flex-wrap: wrap;
