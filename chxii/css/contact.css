@@ -7,8 +7,6 @@
 
 html {
 	font-family: 'PT Serif', serif;
-}
-body {
 	background-image:url("contact.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -57,27 +55,36 @@ h1 {
 .form {
 	text-align: center;
 }
-fieldset {
-	margin-top:152px;
-	margin-bottom:200px;
-	display:inline;	
-	background: rgba(245,245,245,0.85);
-	padding:80px;
+form {
+	background:rgba(245,245,245,0.85);
 	border:gray;
-	text-align: left;
+	max-width:500px;
+	margin-top:124px;
+	display:inline-block;
+	margin-bottom:100px;
+	padding:1%
+
 }
 .contact-input {
+	padding-top:20px;
 	padding-bottom:20px;
-}
+	padding-left:20px;
+	padding-right:20px;
+	
 
+}
 input,
-option,
+select,
 textarea  {
-	height:40px;
-	width:300px;
+	display:block;
+	max-height:40px;
+	max-width:75%;
 	padding:10px;
 	border-radius: 6px;
 	border:1px solid gray;
+	margin:20px;
+
+
 }
 
 select {
@@ -88,6 +95,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     color:dimgray;
+    margin-left:20px;
 }
 
 button {
@@ -98,10 +106,9 @@ button {
 	margin-top:8px;
 
 }
-@media(max-width:480px) {
+@media (max-width:480px) {
 	body {
-		background-size:cover;
-		border:solid 2px blue;
+		background-size:cover;	
 	}
-
+	
 }
