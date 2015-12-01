@@ -96,3 +96,7 @@ button {
 	margin-top:8px;
 
 }
+@media (max-width:600px) {
+	body {
+		height:500px;
+	}
