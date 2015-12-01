@@ -49,7 +49,7 @@ body {
 	right:0;
 	height:41px;
 	background: rgba(255,255,255,0.85);
-  border-bottom:solid grey 1px;
+  
 
 }
 .nav a {
@@ -65,7 +65,8 @@ body {
 	left:0;
     top:0;
 	z-index: 11;
-	max-width:25%;
+	max-width:19%;
+  border:solid silver 1px;
 	
 }
 .social {
@@ -79,13 +80,27 @@ iframe {
 	left:100px;
 
 }
+.instagram {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.facebook {
+  position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
 
 .fb-page {
   position:relative;
   left:453px;
   top:-394px;
 }
-@media (max-width:600px) {
+@media (max-width:480px) {
   .social {
     display:flex;
     justify-content:space-between;
