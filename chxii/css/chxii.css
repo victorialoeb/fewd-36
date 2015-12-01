@@ -97,13 +97,8 @@ h2 {
 
 
 @media (max-width:480px) {
-
   .header {
-    height: 300px;
-  }
-  .banner {
-    height:291px;
-    border-bottom:2px solid #000;
+    min-height: 200px;
   }
   .social {
     flex-wrap: wrap;
