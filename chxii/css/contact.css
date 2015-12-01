@@ -96,3 +96,8 @@ button {
 	margin-top:8px;
 
 }
+@media(max-width:600px) {
+	html {
+		background-size:cover;
+	}
+}
