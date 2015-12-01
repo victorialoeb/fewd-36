@@ -101,7 +101,7 @@ button {
 	html {
 		background-size:cover;
 	}
-	.topnav {
-		justify-content:right;
+	.nav {
+		justify-content:flex-end;
 	}
 }
