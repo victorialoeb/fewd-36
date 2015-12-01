@@ -62,7 +62,7 @@ form {
 	margin-top:124px;
 	display:inline-block;
 	margin-bottom:100px;
-	padding:1%
+	padding:4%
 
 }
 .contact-input {
@@ -78,7 +78,7 @@ select,
 textarea  {
 	display:block;
 	max-height:40px;
-	max-width:75%;
+	max-width:100%;
 	padding:10px;
 	border-radius: 6px;
 	border:1px solid gray;
@@ -108,7 +108,7 @@ button {
 }
 @media (max-width:480px) {
 	body {
-		background-size:cover;	
+		height:100%;
 	}
 	
 }
