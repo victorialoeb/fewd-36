@@ -27,8 +27,7 @@ body {
 }
 
 .header {
-  height:600px;
-  max-height:627px;
+  min-height:500px;
   	
 }
 .banner {
@@ -71,12 +70,12 @@ body {
 }
 h2 {
   font-size: 20px;
-  padding
+  padding-bottom:13px;
 }
 .social {
   overflow: hidden;
   height:420px;
-  margin:auto;
+  margin:20px;
   display: flex;
   margin-bottom:65px;
 }
@@ -86,8 +85,8 @@ h2 {
   position: relative;
   display: inline-block;
   text-align: center;
-
 }
+
 .facebook {
   flex:1;
   position:relative;
@@ -100,14 +99,16 @@ h2 {
 @media (max-width:480px) {
 
   .header {
-    height: 220px;
+    height: 300px;
+  }
+  .banner {
+    height:291px;
+    border-bottom:2px solid #000;
   }
   .social {
     flex-wrap: wrap;
     flex-direction:column;
     justify-content:space-between;
-    border-bottom:2px solid #000;
-    margin:auto;  
     height:100%;
   }  
 }
