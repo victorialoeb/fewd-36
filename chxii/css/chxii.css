@@ -69,10 +69,14 @@ body {
   border:solid silver 1px;
 	
 }
+h2 {
+  text-align: center;
+}
 .social {
   overflow: hidden;
   height:420px;
   margin:auto;
+  display: flex;
 }
 
 iframe {
@@ -81,14 +85,17 @@ iframe {
 
 }
 .instagram {
+  flex:1;
   position: relative;
   display: inline-block;
   left:100px;
 
 }
 .facebook {
+  flex:1;
   position:relative;
-  left:453px;
+  display: inline-block;
+  left:632px;
   top:-394px;
 }
 
