@@ -97,7 +97,7 @@ button {
 
 }
 @media (max-width:600px) {
-	body {
+	html {
 		max-height:500px;
 	}
 }
