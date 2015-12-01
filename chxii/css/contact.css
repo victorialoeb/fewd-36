@@ -8,6 +8,7 @@
 html {
 	font-family: 'PT Serif', serif;
 	background-image:url("contact.jpg");
+	background-repeat: no-repeat;
 	background-size:cover;
 }
 
