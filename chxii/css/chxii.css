@@ -78,13 +78,13 @@ h2 {
   height:420px;
   margin:auto;
   display: flex;
+  margin-bottom:65px;
 }
 
 .instagram {
   flex:1;
   position: relative;
   display: inline-block;
-  left:100px;
   text-align: center;
 
 }
@@ -99,14 +99,13 @@ h2 {
 
 @media (max-width:480px) {
   .social {
-    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
     justify-content:space-between;
     border-bottom:2px solid #000;  
   }
-  .facebook {    
-    flex-direction:column;    
+  .facebook {
+    margin-top:143px;
   }
-  .instagram {
-    flex-direction:column;
-  }
+  
 }
