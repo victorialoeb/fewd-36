@@ -47,6 +47,7 @@ body {
 	right:0;
 	height:41px;
 	background: rgba(255,255,255,0.85);
+  border-bottom:solid grey 1px;
 
 }
 .nav a {
@@ -73,14 +74,14 @@ body {
 iframe {
   position:relative;
 	left:100px;
+  overflow: hidden;
+  width: 390px;
+  height: 390px;
 }
 
 .fb-page {
   position:relative;
   left:453px;
   top:-394px;
-}
-._2lqg>div {
-  height:0%;
 }
 

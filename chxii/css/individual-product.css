@@ -127,27 +127,31 @@ body {
   display:inline;
 }
 .product-info {
-  margin:128px 150px;
+  display: flex;
+  margin:200px;
+  align-items: center;
+  
 }
-.prod-img {
-  float:left;
-  margin-top:-48px;
+.img-box {
+  flex:1;
+  height:320px;
+  width:133px;
+  margin-left:50px;
+
 }
+
 h1 {
   font-size:30px;
-  padding-botom:25px;
 }
 h2 {
   font-size:10px;
   color:firebrick;
 }
-p {
-  max-width:450px;
-  float:right;
-  padding-top:30px; 
-}
-h1, h2 {
-  margin-left:309px;
+
+.description {
+  flex:2;
+  max-width:550px;
+
 }
 
 
