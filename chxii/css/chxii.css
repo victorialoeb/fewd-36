@@ -98,6 +98,10 @@ h2 {
 
 
 @media (max-width:480px) {
+
+  .header {
+    height: 200%;
+  }
   .social {
     flex-wrap: wrap;
     flex-direction:column;
