@@ -107,6 +107,9 @@ button {
 
 }
 @media (max-width:480px) {
+	html {
+		width:50%;
+	}
 	body {
 		height:100%;
 	}
