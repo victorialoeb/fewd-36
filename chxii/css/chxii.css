@@ -77,29 +77,23 @@ body {
 
 iframe {
   position:relative;
-	left:100px;
+	
 
 }
 .instagram {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden;
+  display: inline-block;
+  left:100px;
+
 }
 .facebook {
-  position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-.fb-page {
   position:relative;
   left:453px;
   top:-394px;
 }
+
+
+
 @media (max-width:480px) {
   .social {
     display:flex;
