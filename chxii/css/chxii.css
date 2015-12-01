@@ -69,6 +69,7 @@ body {
 .social {
   overflow: hidden;
   height:420px;
+  margin-left:100px;
 }
 
 iframe {
