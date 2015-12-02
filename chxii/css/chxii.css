@@ -97,12 +97,15 @@ h2 {
   text-align: center;
 }
 
+ .instagram,
+  .facebook {
+    margin-top:30px;
+  }
 
 @media (max-width:600px) {
 
   .header {
     flex-direction:column;
-    border-bottom:2px solid black;
     height:199px;
 
   }
@@ -113,10 +116,9 @@ h2 {
     height:100%;
     
   }  
-  .instagram {
-    margin-left
-  }
+
   .topnav {
    right:0;
    top:0;  }
 }
+
