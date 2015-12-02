@@ -166,6 +166,7 @@ h2 {
   .img-box {
     flex:1;
     height:241px;
+    margin-right:20px;
     
   }
   .prod-img {
@@ -179,9 +180,5 @@ h2 {
     margin-right:54px;
   }
 }
-@media (max-width: 480) {
-  .img-box {
-    margin-right:60px;
-  }
-}
+
 
