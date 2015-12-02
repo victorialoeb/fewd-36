@@ -181,8 +181,7 @@ h2 {
 }
 @media (max-width: 480) {
   .img-box{
-    float:center;
-    margin-right:20px;
+    margin-left:18px;
   }
 }
 
