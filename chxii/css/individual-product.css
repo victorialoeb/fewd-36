@@ -180,7 +180,7 @@ h2 {
 }
 @media (max-width: 480) {
   .img-box{
-    text-align: center;
+    float:center;
   }
 }
 
