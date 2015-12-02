@@ -178,5 +178,9 @@ h2 {
     margin-right:54px;
   }
 }
-
+@media (max-width: 480) {
+  .img-box{
+    text-align: center;
+  }
+}
 
