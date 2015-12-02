@@ -153,6 +153,7 @@ h2 {
 .description {
   flex:2;
   max-width:550px;
+  margin-top:35px;
 
 }
 
