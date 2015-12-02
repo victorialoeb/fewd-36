@@ -160,22 +160,22 @@ h2 {
   .product-info {
     display: flex;
     flex-direction:column;
-    margin-top:130px;
+    margin-top:110px;
   }
   .img-box {
     flex:1;
-    height:270px;
+    height:241px;
     
   }
   .prod-img {
-    height:270px;
+    height:241px;
   }
   .description {
     flex:1;
     min-width:300px;
   }
   #primary_nav_wrap {
-    margin-right:75px;
+    margin-right:54px;
   }
 }
 
