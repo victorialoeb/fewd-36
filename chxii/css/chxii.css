@@ -27,7 +27,8 @@ body {
 }
 
 .header {
-  min-height:500px;
+  min-height: 400px;
+
   	
 }
 .banner {
@@ -95,15 +96,29 @@ h2 {
 }
 
 
-
 @media (max-width:480px) {
+  
+  section {
+    display:flex;
+    flex-grow:2;
+    
+  }
   .header {
-    min-height: 200px;
+    flex-direction:column;
+    border-bottom:2px solid black;
+
   }
   .social {
+    margin-top:194px;
     flex-wrap: wrap;
     flex-direction:column;
-    justify-content:space-between;
     height:100%;
+    
   }  
+  .instagram {
+    margin-left
+  }
+  .topnav {
+   right:0;
+   top:0;  }
 }
