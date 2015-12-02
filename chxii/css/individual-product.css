@@ -172,11 +172,15 @@ h2 {
   }
   .description {
     flex:1;
-    min-width:500px;
+    min-width:450px;
   }
   #primary_nav_wrap {
     margin-right:75px;
   }
 }
-
+@media (max-width: 600px) {
+  .description {
+    min-width:400px;
+  }
+}
 
