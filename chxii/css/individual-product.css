@@ -167,10 +167,12 @@ h2 {
     flex:1;
     height:241px;
     margin-right:20px;
+
     
   }
   .prod-img {
     height:241px;
+    margin-right:20px;
   }
   .description {
     flex:1;
