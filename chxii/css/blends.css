@@ -131,17 +131,17 @@ body {
 }
 
 .products {
-  margin:200px 0 0 0; 
+  margin-top:200px; 
 	
 }
 .products li {
   list-style-type:none;
   text-align: center;
   float:left;
-  padding-left:120px;
-  padding-right:21px;
+  padding-left:67px;
   padding-bottom:15px;
 }
+
 .products li a p {
 	display:inline;
 	margin:0;
@@ -151,7 +151,9 @@ body {
 	color:black;
 	text-decoration: none;
 }
-
+.thumbnail {
+  height:187px;
+}
 @media (max-width:480px) {
   .products li {
     padding-left:118px;
