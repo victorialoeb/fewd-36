@@ -100,8 +100,11 @@ select {
     appearance: none;
     color:dimgray;
     margin-left:20px;
+    font-family: 'PT Serif';
 }
-
+option {
+	font-family: 'PT Serif';
+}
 button {
 	display: block;
 	padding:8px;
