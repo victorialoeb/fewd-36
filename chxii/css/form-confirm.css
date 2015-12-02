@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'PT Serif', serif;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  background:whitesmoke;
+}
+
+div {
+	background:rgba(162, 152, 152, 0.19);
+	border:solid 1px grey;
+	border-radius: 15px;
+	text-align: center;
+	width: 60%;
+	margin:80px auto;
+	padding:75px;
+	padding-bottom:90px;
+}
+
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 18px;
+}
