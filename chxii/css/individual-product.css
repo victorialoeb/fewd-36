@@ -132,7 +132,7 @@ body {
   display: flex;
   margin:200px;
   align-items: center;
-  
+  margin-top:120px;
 }
 .img-box {
   flex:1;
